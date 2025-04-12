@@ -1,1 +1,91 @@
+@charset "UTF-8";
 
+body
+{
+    background-image: linear-gradient(90deg, rgb(252, 239, 128), rgba(67, 216, 74, 0.795) );
+    color: black;
+    font-size: 12pt;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+h1
+{   
+    background-image: linear-gradient(270deg, rgba(77, 221, 77, 0.89)rgba(245, 245, 99, 0.938)8) );
+    background-color: aqua;
+    color: black;
+    font-size: 30pt;
+    font-family:Arial;
+    text-align: center;
+}
+
+p
+{
+    color: black;
+    font-size: 16pt;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center; 
+}
+
+h2
+{
+    color: black;
+    font-size: 20pt;
+    font-family:Arial;
+    text-align: center;
+}
+
+h21
+{
+    color: black;
+    font-size: 20pt;
+    font-family:Arial;
+    text-align: left; 
+    text-align: center;  
+}
+
+h3
+{
+    color: black;
+    font-size: 20pt;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+li
+{
+    color: black;
+    font-size: 20pt;
+    font-family:Arial;
+    text-align: center;
+}
+
+a
+{
+    color: greenyellow;
+    font-size: 20pt;
+    font-family:Arial;
+    text-align: center;
+    text-decoration: none;
+} 
+
+table
+{
+    background-color: white;
+    color: black;
+    font-size: 20pt;
+    font-family:Arial;   
+    table, td, th, tfoot 
+        {
+            border: 3px solid;
+        }  
+    td {color: greenyellow;}
+    text-align: center;  
+    margin: auto;    
+}
+
+table.table tr
+{
+    cursor.pointer;
+}
